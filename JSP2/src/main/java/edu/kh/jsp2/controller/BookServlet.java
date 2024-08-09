@@ -42,8 +42,7 @@ public class BookServlet extends HttpServlet{
 		req.getRequestDispatcher(path).forward(req, resp);
 		
 		
-		
-	
+			
 	
 	
 	
