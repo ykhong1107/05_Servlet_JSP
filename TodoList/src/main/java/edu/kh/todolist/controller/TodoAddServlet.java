@@ -57,14 +57,7 @@ public class TodoAddServlet extends HttpServlet{
 			e.printStackTrace();
 		}
 		
-		
 
-		
-		
-		
-		
-		
-		
 	
 	
 	}

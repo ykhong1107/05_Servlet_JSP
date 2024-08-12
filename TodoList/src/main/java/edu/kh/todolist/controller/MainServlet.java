@@ -42,6 +42,8 @@ public class MainServlet extends HttpServlet{
 			// Map에 저장된 값 풀어내기
 			List<Todo> todoList = (List<Todo>)map.get("todoList");
 			//                     다운캐스팅           Object
+			
+			// parseInt는 String 타입만 가능하다.
 			int completeCount = (int)map.get("completeCount");
 			
 			// request scope 객체값을 추가

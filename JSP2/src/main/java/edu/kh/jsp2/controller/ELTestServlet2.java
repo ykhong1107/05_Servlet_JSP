@@ -57,7 +57,7 @@ public class ELTestServlet2 extends HttpServlet{
 		session.setAttribute("sessionValue", "session scope 객체에 세팅한 값");
 		
 		/* session 만료시키기 */
-		session.setMaxInactiveInterval(1800); // 초단위
+		session.setMaxInactiveInterval(5); // 초단위
 		
 		// ===================================
 		
