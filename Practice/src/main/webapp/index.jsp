@@ -78,7 +78,7 @@
 
     <%-- 존재하지 않을 경우 결과출력 --%>
     <h4>${message}</h4>
-    <h1 style="color:blue">전 가볼게요 !! 화이팅 두 분 !!!!!!!!!!!!!!!!!</h1>
+    <h1 style="color:blue">존재하지 않습니다</h1>
 
     <%-- sessionScope에 message가 있을경우 제거하기
       -> 1회만 출력
